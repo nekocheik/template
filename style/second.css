@@ -1,0 +1,23 @@
+.navbar-brand{
+  display: flex;
+}
+body{
+  display: flex;
+}
+.navbar{
+  height: 100vh;
+  flex-direction: column;
+}
+
+.navbar   ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: #2C3C54;
+  align-items: center;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}

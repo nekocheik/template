@@ -18,7 +18,8 @@ body{
   align-items: center;
 }
 .container{
-  width: 761px;
+  min-width: 761px;
+  width: 60vw;
   padding-left: 10vw;
 }
 a{
