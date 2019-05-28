@@ -1,0 +1,46 @@
+.navbar-brand{
+  display: flex;
+}
+body{
+  display: flex;
+}
+.navbar{
+  height: 100vh;
+  flex-direction: column;
+}
+
+.navbar   ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: #2C3C54;
+  align-items: center;
+}
+.container{
+  width: 761px;
+  padding-left: 10vw;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+form div{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+#form_title{
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  border-radius: 10px;
+  border: solid #507DC1 1px;
+}
+
+::placeholder {
+  padding-left: 30px;
+  font-size: 16px;
+}
