@@ -48,8 +48,12 @@ a {
   width: 320px;
   height: 85px;
   color: rgb(0, 0, 0);
-  font-size: 3em;
+  font-size: 1.5em;
   text-align: center;
+  transition: transform .5s;
+}
+.perso:hover {
+  transform: scale(1.2);
 }
 
 .flex-container li {
