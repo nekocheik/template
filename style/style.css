@@ -92,3 +92,164 @@ form div .buttons__add{
   font-size: 18px;
   color: #BABABA;
 }
+
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+.login__title {
+  font-family: "Product Sans";
+  font-size: 48px;
+  padding-bottom: 25px;
+}
+
+.login__dp {
+  width: 128px;
+  padding-bottom: 25px;
+}
+
+.login__button {
+  display: flex;
+  width: 280px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  transition: 0.2s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.login__button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.login__button::placeholder {
+  font-family: "Product Sans";
+  font-size: 16px;
+}
+
+.login__linkedin {
+  cursor: pointer;
+  width: 280px;
+  height: 50px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: none;
+  background-color: #0e76a8;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  margin-bottom: 25px;
+}
+
+.login__linkedin__text {
+  font-size: 16px;
+  font-family: "Product Sans";
+  font-weight: bold;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login__submit {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Product Sans";
+  width: 140px;
+  height: 50px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  margin-bottom: 25px;
+}
+
+.register {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+.register__title {
+  font-family: "Product Sans";
+  font-size: 48px;
+  padding-bottom: 25px;
+}
+
+.register__dp {
+  width: 128px;
+  padding-bottom: 25px;
+}
+
+.register__button {
+  display: flex;
+  width: 280px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  transition: 0.2s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.register__button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.register__button::placeholder {
+  font-family: "Product Sans";
+  font-size: 16px;
+}
+
+.register__linkedin {
+  cursor: pointer;
+  width: 280px;
+  height: 50px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: none;
+  background-color: #0e76a8;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  margin-bottom: 25px;
+}
+
+.register__linkedin__text {
+  font-size: 16px;
+  font-family: "Product Sans";
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register__submit {
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Product Sans";
+  width: 140px;
+  height: 50px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.02);
+  margin-bottom: 25px;
+}
