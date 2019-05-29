@@ -3,11 +3,45 @@
 }
 body{
   display: flex;
+  font-family: 'Product Sans';
 }
 .navbar{
   height: 100vh;
   flex-direction: column;
+  width: 10vw;
 }
+.Profile__Photo img{
+  width: 40px;
+}
+
+.form__add__post{
+  display: flex;
+}
+
+.navbar .nav-link img{
+  width: 24px;
+}
+
+.button__deconnexion{
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  height: 35px;
+  background-color: #2C3C54;
+  border: solid 1px #507DC1;
+  position: fixed;
+  right: 10vh;
+  top: 11vh;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.button__deconnexion img{
+  width: 15px;
+  display: block;
+  margin: auto;
+}
+
 
 .navbar   ul{
   display: flex;
@@ -18,7 +52,8 @@ body{
   align-items: center;
 }
 .container{
-  width: 761px;
+  min-width: 761px;
+  width: 60vw;
   padding-left: 10vw;
 }
 a{
@@ -30,17 +65,30 @@ form div{
   flex-direction: column;
   justify-items: center;
   text-align: center;
+  width: 100%;
 }
+/* 
+form div button{
+  
+};
+
+form div .buttons__add{
+  height: 33px;
+}; */
+
 #form_title{
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  height: 40px;
+  height: 50px;
   border-radius: 10px;
-  border: solid #507DC1 1px;
+  border: solid #507dc1 1px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  font-size: 18px;
 }
 
 ::placeholder {
-  padding-left: 30px;
-  font-size: 16px;
+  font-size: 18px;
+  color: #BABABA;
 }
